@@ -114,6 +114,7 @@ a {
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .subtext-title {
@@ -232,4 +233,14 @@ a {
     border-color: white;
     padding: 5px 25px;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+    font-size: 20px;
 }
