@@ -130,6 +130,7 @@ a {
     gap: 30px; /* Adjust gap between boxes */
     flex-wrap: wrap;
     justify-content: center;
+    flex: 1;
 }
 
 .box-wrapper {
@@ -157,4 +158,35 @@ a {
     display: flex;
     max-width: 100px;
     flex-wrap: wrap;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 100px;
 }
