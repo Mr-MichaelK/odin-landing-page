@@ -190,3 +190,46 @@ a {
     font-size: 24px;
     margin-right: 100px;
 }
+
+.bottom-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 100px;
+    padding: 40px 100px;
+    border-radius: 5px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 300px;
+}
+
+.left-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.left-text .bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action button {
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
